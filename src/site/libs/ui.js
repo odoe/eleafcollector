@@ -1,8 +1,7 @@
 module.exports = function(name) {
 
-  var div = document.createElement('div');
-  div.id = name;
-  document.body.appendChild(div);
-  return div;
+  return d3.select('body').
+    append('div').
+    attr('id', name)[0][0];
 
 };
