@@ -1,0 +1,13 @@
+src/node_modules/*
+src/site/bower_components/*
+intern/*
+output/*
+*~
+*.swp
+.cache/*
+.grunt/*
+.idea/*
+build/*
+vendor/*
+*.lnk
+*ugly.js

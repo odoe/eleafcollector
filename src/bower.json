@@ -1,0 +1,7 @@
+{
+  "name": "Project",
+  "version": "0.0.1",
+  "devDependencies": {
+    "esri-leaflet": "git@github.com:Esri/esri-leaflet.git#~0.0.1-rc1"
+  }
+}
